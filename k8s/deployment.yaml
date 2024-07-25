@@ -14,7 +14,7 @@ spec:
       containers:
         - name: frontend
           # 여러분의 image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_373bf4ec2983
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_46c16c949a2f
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -32,7 +32,7 @@ spec:
       containers:
         - name: backend
           # 여러분의 image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_0b161c0687e6
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_21ada715f350
           env:
           - name: CODE
             value: "비비"
